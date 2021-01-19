@@ -4,7 +4,7 @@ resource "azurerm_public_ip" "jumphost_public_ip" {
   name                    = "jumphost-pip"
   location                = azurerm_resource_group.aml_rg.location
   resource_group_name     = azurerm_resource_group.aml_rg.name
-  allocation_method       = "Dynamic"
+  allocation_method       = "Static"
 }
 
 resource "azurerm_network_interface" "jumphost_nic" {
