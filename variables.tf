@@ -1,5 +1,4 @@
 variable "resource_group" {
-  default = "aml-terraform-demo"
 }
 
 variable "workspace_display_name" {
