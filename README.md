@@ -2,7 +2,7 @@
 
 This repo shows an example for rolling out a complete Azure Machine Learning enterprise enviroment via Terraform.
 
-![Deployed resources](https://github.com/kaparora/terraform-azure-machine-learning/blob/main/media/architecture_aml_pl.png)
+![Deployed resources](https://github.com/kaparora/terraform-azure-machine-learning/blob/main/media/architecture_aml_pl.png?raw=true)
 
 This includes rollout of the following resources:
 
