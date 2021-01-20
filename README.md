@@ -15,3 +15,11 @@ This includes rollout of the following resources:
 * Jumphost (Windows) for testing
 * (Azure Kubernetes Service - disabled by default and still under development)
 
+Sample usage:
+
+module "machine-learning" {
+  source  = "app.terraform.io/kapil-org/machine-learning/azure"
+  version = "0.0.3"
+  location = westeurope
+  resource_group = "aml-demo"
+}
