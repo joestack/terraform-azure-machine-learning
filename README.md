@@ -19,8 +19,8 @@ This includes rollout of the following resources:
 
 ```
 module "machine-learning" {
-  source  = "app.terraform.io/kapil-org/machine-learning/azure"
-  version = "0.0.3"
+  source  = "app.terraform.io/JoeStack/machine-learning/azure"
+  version = "0.0.4"
   location = westeurope
   resource_group = "aml-demo"
 }
